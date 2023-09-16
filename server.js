@@ -17,7 +17,7 @@ mongoose.connect(process.env.DB_ATLAS).then(() => {
 const port = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-    res.send("EduMate server Running...");
+    res.send("server Running...");
 })
 
 app.listen(port, () => {
